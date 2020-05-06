@@ -1,4 +1,5 @@
 import React from "react";
+import api from './services/api';
 
 import {
   SafeAreaView,
@@ -20,7 +21,7 @@ export default function App() {
       <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
       <SafeAreaView style={styles.container}>
         <View style={styles.repositoryContainer}>
-          <Text style={styles.repository}>Repository 1</Text>
+          <Text style={styles.repository}>Repositórios</Text>
 
           <View style={styles.techsContainer}>
             <Text style={styles.tech}>
